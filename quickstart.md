@@ -1,17 +1,36 @@
 # Quick Start
 
-This guide helps you apply the AI Agent Design Rubric to your own project in under two minutes.
+This guide helps you apply the AI Agent Design Rubric to your own project in a few minutes.
 
-## Step 1 — Open your agent’s repository in your preferred coding assistant
-(Claude Code, Cursor, GitHub Copilot Workspace, VS Code AI Extension, etc.)
+## Step 1. Download the rubric
 
-## Step 2 — Copy and paste this prompt
+Download the rubric file from this repository.  
+It does not need to be added to your project, but it must be accessible to your coding assistant.
 
-"Review this repository (my project) and evaluate the agent design using the rubric located at /docs/rubric.md. 
-Assign a score from 1 to 3 for each subsection with a short explanation.
-Identify the highest-impact improvement areas."
+## Step 2. Open your agent repository in a coding assistant
 
-## Step 3 — Review the generated assessment
-Use it as a first-pass evaluation, then refine scores manually.
+Open your own project in a tool such as:
+- Claude Code  
+- Cursor  
+- GitHub Copilot Workspace  
+- VS Code AI Extension  
 
-## Step 4 — Record results using the template in /templates/
+Different assistants may interpret prompts differently.  
+Adjust the wording if needed for your tool.
+
+## Step 3. Run this prompt (and update the rubric path)
+
+Replace `<PATH_TO_RUBRIC_FILE>` with the actual path to the rubric on your machine.
+
+> Scan this repository and evaluate the agent design.  
+> Use only code, tests, and configuration files. Ignore all documentation, comments, and markdown files when scoring.  
+> Use the rubric at `<PATH_TO_RUBRIC_FILE>` as the scoring reference.  
+> If something is described only in documentation and not present in code, treat it as not implemented.
+
+## Step 4. Review the generated assessment
+
+Use the output as a first pass and adjust scores where needed.
+
+## Step 5. Capture your results
+
+Record your final scores and notes using your preferred format.
